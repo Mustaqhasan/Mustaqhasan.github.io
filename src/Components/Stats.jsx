@@ -9,8 +9,9 @@ const Stats = () => {
         <h3>Git Stats</h3>
       </div>
       <div style={{ width: "40%", margin: "auto" }}>
-        <a id="github-streak-stats" href="https://github.com/Mustaqhasan">
+        <a  href="https://github.com/Mustaqhasan">
           <img
+          id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=Mustaqhasan&theme=dark"
           />
@@ -26,14 +27,16 @@ const Stats = () => {
           margin: "auto",
         }}
       >
-        <a id="github-top-langs" href="https://github.com/Mustaqhasan">  
+        <a href="https://github.com/Mustaqhasan">  
           <img
+          id="github-top-langs" 
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mustaqhasan&theme=dark"  //launguages
           />
         </a>
-        <a id="github-stats-card" href="https://github.com/Mustaqhasan">
+        <a  href="https://github.com/Mustaqhasan">
           <img
+          id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=Mustaqhasan&count_private=true&show_icons=true&theme=dark" //stats
           />

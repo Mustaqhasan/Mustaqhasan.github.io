@@ -34,10 +34,16 @@ const Skills = () => {
         <section id="skills">
 
         
-        <Flex p={"30px"} paddingTop="100px" w={"80%"} margin="auto">
-          <Box  className="skills-title">
+          <div style={{
+            width:"80%",
+            margin:"auto",
+            textAlign:"center",
+            // marginTop:"150px"
+            // marginBottom:"50px"
+          }} className="skills-title">
             <h3>Skills</h3>
-          </Box>
+          </div>
+        <Flex border={"2px solid black"} borderTop="none" borderRight="none" borderLeft={"none"} p={"30px"} paddingTop="100px" w={"80%"} margin="auto">
           <Flex
             className="skills-container"
             flexWrap={"wrap"}
@@ -45,28 +51,28 @@ const Skills = () => {
             justifyContent="center"
           >
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>
-              <Image className="skills-img" src="/html.png" />
-              <Heading>HTML</Heading>
+              <Image className="skills-card-img" src="/html.png" />
+              <Heading className="skills-card-name">HTML</Heading>
             </Box>
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>
               <Image className="skills-card-img" src="/js.png" />
-              <Heading>Javascript</Heading>
+              <Heading className="skills-card-name">Javascript</Heading>
             </Box>
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>
               <Image className="skills-card-img" src="/css-3.png" />
-              <Heading>CSS</Heading>
+              <Heading className="skills-card-name">CSS</Heading>
             </Box>
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>
               <Image className="skills-card-img" src="/bootstrap.png" />
-              <Heading>Bootstrap</Heading>
+              <Heading className="skills-card-name">Bootstrap</Heading>
             </Box>
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>
               <Image className="skills-card-img" src="/react.png" />
-              <Heading>React</Heading>
+              <Heading className="skills-card-name">React</Heading>
             </Box>
             <Box className="skills-card"  minH={"200px"} minW={"200px"} textAlign={"center"}>
               <Image className="skills-card-img" src="/github.png" />
-              <Heading>Git</Heading>
+              <Heading className="skills-card-name">Git</Heading>
             </Box>
           </Flex>
         </Flex>

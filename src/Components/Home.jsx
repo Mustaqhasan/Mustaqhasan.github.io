@@ -15,15 +15,14 @@ function Home() {
           </div>
           <div style={{paddingLeft:"50px",width:"900px"}}  className="banner-content">
             <div className="links">
-              {/* <a target={"_blank"} href="#">
-            <i className="fab fa-twitter"></i>
-          </a> */}
+             
               <a
+              id="contact-linkedin"
                 target={"_blank"}
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/mustaqshaikh/"
               >
-                <i className="fa fa-linkedin"></i>
+                <h1 className="fa fa-linkedin"></h1>
               </a>
               <a
                 id="contact-github"
@@ -31,15 +30,15 @@ function Home() {
                 rel="noreferrer"
                 href="https://github.com/Mustaqhasan"
               >
-                <i className="fa fa-github"></i>
+                <h1 className="fa fa-github"></h1>
               </a>
               <a
               id="contact-email"
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://mail.google.com/mail/u/0/#inbox"
+                href="mailto:shaikhmustaq7714@gmail.com"
               >
-                <i className="fa fa-envelope-square" aria-hidden="true"></i>
+                <h1 className="fa fa-envelope-square" aria-hidden="true"></h1>
               </a>
               {/* <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/mustaqhasan.shaikh.3">
             <i className="fab fa-facebook"></i>
@@ -49,10 +48,11 @@ function Home() {
           </a> */}
             </div>
             <h3 id="user-detail-name">Hello 👋🏻 , I'm Mustaq Shaikh</h3>
-            <h1>
+            <div id="typical">
               {/* Full Stack Web Developer */}
               <Typical
                 loop={Infinity}
+                wrapper="h3"
                 steps={[
                   "Enthusiastic Web Dev 😎",
                   2000,
@@ -66,20 +66,23 @@ function Home() {
                   2000,
                 ]}
               />
-            </h1>
+            </div>
             <h2 id="user-detail-intro">Aspiring Web Developer</h2>
             {/* <p id="user-detail-intro">
             
 
             </p> */}
-            <a
+            {/* <a
               className="btn"
-              id="resume-button-2"
+              id="resume-link-2"
               href="Mustaq_Shaikh_Resume.pdf"
               download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
             >
+              <button style={{border:"none",color:"white"}} id="resume-button-2">
+
               Get Resume
-            </a>
+              </button>
+            </a> */}
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import GitCalender from "./Components/GitCalender";
 import Home from "./Components/Home";
+import Header from "./Components/Navbar";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
@@ -12,7 +13,8 @@ import Stats from "./Components/Stats";
 function App() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
+    <Header/>
     <Home/>
     <About/>
     <Skills/>

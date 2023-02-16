@@ -5,7 +5,7 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 const GitCalender = () => {
   return (
-    <div  className='calender'>
+    <div style={{borderTop:"2px solid black", width:"80%",margin:"auto",paddingTop:"50px", paddingBottom:"60px"}} className='calender'>
       <h3>Github Calender</h3>
       <GitHubCalendar username="Mustaqhasan" style={{width:"60%",margin:"auto"}}
         blockSize={20} fontSize={20}
