@@ -4,9 +4,9 @@ import Typical from "react-typical";
 
 function Home() {
   return (
-    <section className="banner" id="home">
+    <section  className="banner" id="home">
       <div className="container">
-        <div className="banner-wrapper">
+        <div style={{height:"auto"}} className="banner-wrapper">
           <div className="banner-img">
             {/* <div className="profile-picture-background"> */}
 
@@ -48,6 +48,7 @@ function Home() {
           </a> */}
             </div>
             <h3 id="user-detail-name">Hello 👋🏻 , I'm Mustaq Shaikh</h3>
+            <h2 id="user-detail-intro">Aspiring Web Developer</h2>
             <div id="typical">
               {/* Full Stack Web Developer */}
               <Typical
@@ -56,7 +57,7 @@ function Home() {
                 steps={[
                   "Enthusiastic Web Dev 😎",
                   2000,
-                  "Full Stack Developer 👨‍💼",
+                  "Full Stack Web Developer 👨‍💼",
                   2000,
                   "Dedicated Mern Dev 🤵",
                   2000,
@@ -67,7 +68,7 @@ function Home() {
                 ]}
               />
             </div>
-            <h2 id="user-detail-intro">Aspiring Web Developer</h2>
+            
             {/* <p id="user-detail-intro">
             
 

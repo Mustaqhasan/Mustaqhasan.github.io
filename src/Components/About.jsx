@@ -5,22 +5,12 @@ const About = () => {
   return (
     <section id="about" className="about section">
       <div
-        style={{
-          border: "2px solid black",
-          borderLeft: "none",
-          borderRight: "none",
-          marginTop: "100px",
-        }}
+      className="about-div1"
+        
       >
         <div
           className="about-title"
-          style={{
-            margin: "auto",
-            width: "auto",
-            textAlign: "center",
-            marginTop: "100px",
-            marginBottom: "50px",
-          }}
+          
         >
           <h3 style={{ marginBottom: "60px" }} className="section">
             About Me
@@ -46,8 +36,9 @@ const About = () => {
               download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
             >
               <button
-                style={{ border: "1px solid", color: "black" }}
+                
                 id="resume-button-2"
+                className="btn"
               >
                 Get Resume
               </button>

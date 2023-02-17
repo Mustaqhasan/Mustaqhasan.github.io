@@ -39,11 +39,11 @@ function Projects() {
     },
   ]);
   return (
-    <div >
+    
 
     
     <section id="projects">
-      <div  className="container">
+      <div className="container">
         <div className="title">
           <h3>Featured Projects</h3>
           <a
@@ -55,17 +55,17 @@ function Projects() {
             View All
           </a>
         </div>
-        <div className="title">
-          {/* <h3>Featured Projects</h3> */}
-          {/* <a
+        {/* <div className="title">
+          <h3>Featured Projects</h3>
+          <a
                 id="resume-link-1"
                 
                 href="Mustaq_Shaikh_Resume.pdf"
               download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
               >
                 <button id="resume-button-1" >Resume</button>
-              </a> */}
-        </div>
+              </a>
+        </div> */}
         <div className="projects-wrapper">
           {projects.map((project, i) => (
             <div  className="project-card" key={i + 1}>
@@ -117,7 +117,6 @@ function Projects() {
         </div>
       </div>
     </section>
-    </div>
   );
 }
 

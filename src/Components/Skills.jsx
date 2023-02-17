@@ -34,20 +34,15 @@ const Skills = () => {
         <section id="skills">
 
         
-          <div style={{
-            width:"80%",
-            margin:"auto",
-            textAlign:"center",
-            // marginTop:"150px"
-            // marginBottom:"50px"
-          }} className="skills-title">
+          <div
+           className="skills-title">
             <h3>Skills</h3>
           </div>
-        <Flex border={"2px solid black"} borderTop="none" borderRight="none" borderLeft={"none"} p={"30px"} paddingTop="100px" w={"80%"} margin="auto">
+        <Flex className="skills-content">
           <Flex
             className="skills-container"
             flexWrap={"wrap"}
-            gap={100}
+            gap={0}
             justifyContent="center"
           >
             <Box className="skills-card" minH={"200px"} minW={"200px"} textAlign={"center"}>

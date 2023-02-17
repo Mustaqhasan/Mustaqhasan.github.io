@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <div
         className="contact-title"
-        style={{ margin: "auto", width: "80%", textAlign: "center",border:"2px solid black" , borderBottom:"none", borderLeft:"none", borderRight:"none",paddingTop:"20px" }}
+        style={{ margin: "auto", width: "80%", textAlign: "center",border:"2px solid black" , borderBottom:"none", borderLeft:"none", borderRight:"none",paddingTop:"100px" }}
       >
         <h3>Contact</h3>
 

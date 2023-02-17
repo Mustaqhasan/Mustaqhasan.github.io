@@ -32,6 +32,9 @@ body {
   width: 100%;
   margin: auto;
 }
+.banner .container{
+  padding-top: 80px;
+}
 .btn {
   display: flex;
   justify-content: center;
@@ -45,7 +48,7 @@ body {
 #resume-button-1 {
   color: var(--light);
   padding: 10px;
-  background-color: #c72929;
+  background-color: red;
   border-radius: 5px;
   border: 1px solid red;
 }
@@ -202,7 +205,7 @@ header #mobile-links {
   justify-content: space-between;
   align-items: center;
   /* align-items:start; */
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
 }
 .banner .banner-img {
   position: relative;
@@ -223,6 +226,10 @@ header #mobile-links {
 }
 .home-img:hover{
   transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.skills-card-img:hover{
+  transform: scale(1.25);
   transition: 1s ease-out;
 }
 .banner .banner-content h6 {
@@ -260,6 +267,17 @@ header #mobile-links {
   font-weight: 600;
 }
 .banner .banner-content .btn:hover {
+  background: transparent;
+}
+#resume-button-2{
+  /* style={{ border: "1px solid", color: "white",backgroundColor:"red",width:"20%",transition: "0.3s" }} */
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+  width: 20%;
+}
+#resume-button-2:hover{
   background: transparent;
 }
 /* =========== Banner */
@@ -389,9 +407,8 @@ header #mobile-links {
 }
 
 #projects {
-  margin-top: 100px;
-  /* padding: 100px 0px; */
-  border: 1px solid black;
+  padding: 100px 0px;
+  
 }
 #projects .title {
   display: flex;
@@ -408,12 +425,13 @@ header #mobile-links {
 #projects .title .btn {
   max-width: 150px;
   height: 50px;
-  background: linear-gradient(
+  background-color: red;
+  /* background: linear-gradient(
     to right,
     var(--red-dark) 0%,
     var(--red-dark) 21%,
-    var(--red) 100%
-  );
+    var(--red) 100%,
+  ); */
   text-transform: uppercase;
   border: 1px solid var(--red-dark);
   font-weight: 600;
@@ -544,9 +562,32 @@ footer p i {
   font-size: 20px;
   line-height: 30px;
 }
+.about-div1{
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+  margin-top:100px ;
+}
+.about-title{
+  margin: auto;
+  width:auto ;
+  text-align: center;
+  margin-top:100px ;
+  margin-bottom:50px ;
+}
+#skills .skills-content{
+  padding: 30px;
+ 
+  width: 50%;
+  margin: auto;
+
+}
 
 /* ============= Media Queries */
 @media (max-width: 969px) {
+  .banner{
+    padding-top: 100px;
+  }
   .services-experience::before {
     width: 40%;
   }
@@ -564,6 +605,9 @@ footer p i {
   }
 }
 @media (max-width: 767px) {
+  #projects{
+    margin-top: 100px;
+  }
   header #links {
     display: none;
   }
@@ -602,8 +646,9 @@ footer p i {
   }
   .banner .banner-wrapper {
     flex-wrap: wrap;
-    height: auto;
-    padding: 50px 0px;
+    
+    /* height: auto;
+    padding: 30px 0px; */
   }
   .banner .banner-img {
     flex: 0 0 100%;
@@ -612,7 +657,58 @@ footer p i {
   }
 }
 
+
 @media (max-width: 660px) {
+  .banner .container{
+    padding-top: 0px;
+  }
+  .skills-title{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 50px; */
+    /* padding-top: 0px; */
+   
+  }
+/* 
+  .skills-title{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+  } */
+  /*  border={"2px solid black"} borderTop="none" borderRight="none" borderLeft={"none"} p={"30px"} w={"80%"} margin="auto" */
+  #skills .skills-content{
+    /* border: 2px solid black; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* padding-top: 0px; */
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+
+  }
+  /* .banner{
+    margin-top: 0px;
+  }
+  .banner-wrapper{
+    border: 1px solid;
+    padding-top: 0px;
+    
+  } */
+  .about-div1{
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    margin-top:30px ;
+  }
+  #projects {
+    padding: 80px 0px;
+    
+  }
   .banner .banner-content h3 {
     font-size: 30px;
     line-height: 40px;
@@ -659,6 +755,23 @@ footer p i {
 }
 
 @media (max-width: 500px) {
+  .skills-title{
+    width:80% ;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+  }
+  .about-div1{
+    margin-Top: "0px";
+  }
+  .about-title{
+    margin-top: 50px;
+  }
+  #projects{
+    padding-top: 50px;
+  }
   .portfolio {
     flex: 0 0 100%;
     max-width: 100%;
@@ -710,6 +823,23 @@ footer p i {
   font-size: 24px;
   line-height: 30px;
   font-weight: 900;
+}
+ /* 
+  style={{
+            width:"80%",
+            margin:"auto",
+            textAlign:"center",
+            marginTop:"50px",
+            paddingTop:"80px"
+          }}
+  */
+.skills-title{
+  width:80% ;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 80px;
+ 
 }
 .about-title h3{
   text-transform: uppercase;
@@ -765,10 +895,9 @@ footer p i {
   margin: auto;
 }
 #skills{
-  border: 1px solid black;
- border-bottom:var(--dark);
- margin-top: 100px;
-/* margin-bottom: 100px; */
+  /* border: 1px solid black; */
+ /* border-bottom:var(--dark); */
+ /* margin-top: 100px; */
 }
 
 #user-detail-name{
@@ -792,6 +921,7 @@ footer p i {
   font-size: 30px;
 }
 #contact{
-  /* border: 2px solid  */
+  /* border: 2px solid ; */
+  /* padding: 20px 0px; */
   margin-bottom: 50px;
 }

@@ -113,7 +113,7 @@ function Header() {
   return (
     // <header id={`${stickyClass}`}>
     <header id={`sticky`}>
-      <div id="nav-menu">
+      <div  id="nav-menu">
         <div id="header-inner">
           <a href="#home">
             <span id="logo">Mustaq.</span>
