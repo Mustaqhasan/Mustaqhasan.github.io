@@ -577,8 +577,8 @@ footer p i {
 }
 #skills .skills-content{
   padding: 30px;
- 
-  width: 50%;
+  /* margin-left: 80px; */
+  width: 80%;
   margin: auto;
 
 }
@@ -605,6 +605,9 @@ footer p i {
   }
 }
 @media (max-width: 767px) {
+  /* #skills{
+    border: 1px solid black;
+  } */
   #projects{
     margin-top: 100px;
   }
@@ -659,6 +662,14 @@ footer p i {
 
 
 @media (max-width: 660px) {
+  .banner .banner-img{
+    align-items: center;
+    margin-left: 20px;
+  }
+  .banner{
+    /* border: 1px solid black; */
+    padding-top: 80px;
+  }
   .banner .container{
     padding-top: 0px;
   }
@@ -751,6 +762,15 @@ footer p i {
   }
   footer p {
     margin-bottom: 0px;
+  }
+  #menulist{
+    color: red;
+    background-color: black;
+    padding-left: 70px;
+  }
+  #menulist div{
+    margin-top: 20px;
+    font-size: large;
   }
 }
 
