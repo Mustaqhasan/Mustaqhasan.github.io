@@ -150,7 +150,7 @@ function Header() {
               <a
                 id="resume-link-1"
                 href="Mustaq_Shaikh_Resume.pdf"
-                download={"Mustaq_Shaikh_Resume.pdf"}
+                download={"fw20_0567-Mustaq_Shaikh_Resume.pdf"}
                 // target="_blank"
               >
                 <button onClick={handleClick} id="resume-button-1">

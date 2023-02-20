@@ -45,7 +45,7 @@ const About = () => {
             <a
               id="resume-link-2"
               href="Mustaq_Shaikh_Resume.pdf"
-              download={"Mustaq_Shaikh_Resume.pdf"}
+              download={"fw20_0567-Mustaq_Shaikh_Resume.pdf"}
               // target="_blank"
             >
               <button
