@@ -85,11 +85,7 @@
 // export default Navbar;
 
 import React from "react";
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-} from "@chakra-ui/react";
+import { Menu, MenuButton, MenuList } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 function Header() {
   const [stickyClass, setStickyClass] = useState("");
@@ -110,10 +106,17 @@ function Header() {
     }
   };
 
+  const handleClick=()=>{
+
+    window.open(
+      'https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link',
+      '_blank' // <- This is what makes it open in a new window.
+    )
+  }
   return (
     // <header id={`${stickyClass}`}>
     <header id={`sticky`}>
-      <div  id="nav-menu">
+      <div id="nav-menu">
         <div id="header-inner">
           <a href="#home">
             <span id="logo">Mustaq.</span>
@@ -145,17 +148,20 @@ function Header() {
               </a>
             </div>
             <div className="nav-link resume">
-              <a
-                id="resume-link-1"
-                href="Mustaq_Shaikh_Resume.pdf"
-              download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
-              >
-                <button id="resume-button-1" >Resume</button>
-              </a>
+              <button onClick={handleClick} id="resume-button-1">
+                <a
+                  id="resume-link-1"
+                  href="Mustaq_Shaikh_Resume.pdf"
+                  download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </button>
             </div>
           </div>
 
-          <div style={{marginTop:"10px"}} id="menu" >
+          <div style={{ marginTop: "10px" }} id="menu">
             <Menu colorScheme={"blue"}>
               <MenuButton
                 px={4}
@@ -172,7 +178,7 @@ function Header() {
               </MenuButton>
               <MenuList>
                 <div id="menulist">
-                  <div >
+                  <div>
                     <a id="link" href="#home">
                       Home
                     </a>
@@ -182,12 +188,12 @@ function Header() {
                       About
                     </a>
                   </div>
-                  <div >
+                  <div>
                     <a id="link" href="#skills">
                       Skills
                     </a>
                   </div>
-                  <div >
+                  <div>
                     <a id="link" href="#projects">
                       Projects
                     </a>
@@ -201,8 +207,6 @@ function Header() {
               </MenuList>
             </Menu>
           </div>
-
-
 
           {/* <span id="menu" onClick={() => setActive(!active)}>
           <i className="fas fa-bars"></i>

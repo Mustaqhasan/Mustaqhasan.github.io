@@ -2,16 +2,18 @@
 import React from "react";
 
 const About = () => {
+  const handleClick = () => {
+    // window.location.href="https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link"
+
+    window.open(
+      "https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link",
+      "_blank" // <- This is what makes it open in a new window.
+    );
+  };
   return (
     <section id="about" className="about section">
-      <div
-      className="about-div1"
-        
-      >
-        <div
-          className="about-title"
-          
-        >
+      <div className="about-div1">
+        <div className="about-title">
           <h3 style={{ marginBottom: "60px" }} className="section">
             About Me
           </h3>
@@ -23,6 +25,16 @@ const About = () => {
             opportunity to leverage my skills and knowledge to contribute to the
             organization and to grow as a professional.
           </div>
+          {/* <button onClick={handleClick} id="resume-button-1">
+                <a
+                  id="resume-link-1"
+                  href="Mustaq_Shaikh_Resume.pdf"
+                  download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </button> */}
           <div
             style={{
               fontSize: "20px",
@@ -30,19 +42,16 @@ const About = () => {
               color: "Highlight",
             }}
           >
-            <a
-              id="resume-link-2"
-              href="Mustaq_Shaikh_Resume.pdf"
-              download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
-            >
-              <button
-                
-                id="resume-button-2"
-                className="btn"
+            <button onClick={handleClick} id="resume-button-2" className="btn">
+              <a
+                id="resume-link-2"
+                href="Mustaq_Shaikh_Resume.pdf"
+                download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
+                target="_blank"
               >
                 Get Resume
-              </button>
-            </a>
+              </a>
+            </button>
           </div>
         </div>
 
