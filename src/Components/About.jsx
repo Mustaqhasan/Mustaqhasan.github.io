@@ -42,16 +42,20 @@ const About = () => {
               color: "Highlight",
             }}
           >
-            <button onClick={handleClick} id="resume-button-2" className="btn">
-              <a
-                id="resume-link-2"
-                href="Mustaq_Shaikh_Resume.pdf"
-                download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
-                target="_blank"
+            <a
+              id="resume-link-2"
+              href="Mustaq_Shaikh_Resume.pdf"
+              download={"Mustaq_Shaikh_Resume.pdf"}
+              // target="_blank"
+            >
+              <button
+                onClick={handleClick}
+                id="resume-button-2"
+                className="btn"
               >
                 Get Resume
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
 

@@ -106,13 +106,12 @@ function Header() {
     }
   };
 
-  const handleClick=()=>{
-
+  const handleClick = () => {
     window.open(
-      'https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link',
-      '_blank' // <- This is what makes it open in a new window.
-    )
-  }
+      "https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link",
+      "_blank" // <- This is what makes it open in a new window.
+    );
+  };
   return (
     // <header id={`${stickyClass}`}>
     <header id={`sticky`}>
@@ -148,16 +147,16 @@ function Header() {
               </a>
             </div>
             <div className="nav-link resume">
-              <button onClick={handleClick} id="resume-button-1">
-                <a
-                  id="resume-link-1"
-                  href="Mustaq_Shaikh_Resume.pdf"
-                  download={"Mustaq_Shaikh_Resume Mustaq_Shaikh_Resume.pdf"}
-                  target="_blank"
-                >
+              <a
+                id="resume-link-1"
+                href="Mustaq_Shaikh_Resume.pdf"
+                download={"Mustaq_Shaikh_Resume.pdf"}
+                // target="_blank"
+              >
+                <button onClick={handleClick} id="resume-button-1">
                   Resume
-                </a>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
 
