@@ -45,8 +45,8 @@ const About = () => {
             <a
               id="resume-link-2"
               href="Mustaq_Shaikh_Resume.pdf"
-              download={"fw20_0567-Mustaq_Shaikh_Resume.pdf"}
-              // target="_blank"
+              download={"fw20_0567-Mustaq-Shaikh-Resume.pdf"}
+              target="_blank"
             >
               <button
                 onClick={handleClick}
