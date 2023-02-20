@@ -46,14 +46,14 @@ function Projects() {
       <div className="container">
         <div className="title">
           <h3>Featured Projects</h3>
-          <a
+          {/* <a
             href="https://github.com/Mustaqhasan"
             target="_blank"
             className="btn"
             rel="noreferrer"
           >
             View All
-          </a>
+          </a> */}
         </div>
         {/* <div className="title">
           <h3>Featured Projects</h3>
