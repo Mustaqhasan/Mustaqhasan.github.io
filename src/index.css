@@ -215,8 +215,8 @@ header #mobile-links {
 }
 
 .home-img{
-  height: 95%;
-  width: 95%;
+  height: 80%;
+  width: 80%;
   background-image: url("../public/person6.png");
   background-size: cover;
   box-shadow: 0 1px 0px 0px var(--red);

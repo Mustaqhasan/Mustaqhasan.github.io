@@ -39,21 +39,18 @@ function Projects() {
     },
   ]);
   return (
-    
-
-    
     <section id="projects">
       <div className="container">
         <div className="title">
           <h3>Featured Projects</h3>
-          {/* <a
+          <a
             href="https://github.com/Mustaqhasan"
             target="_blank"
             className="btn"
             rel="noreferrer"
           >
             View All
-          </a> */}
+          </a>
         </div>
         {/* <div className="title">
           <h3>Featured Projects</h3>
@@ -68,7 +65,7 @@ function Projects() {
         </div> */}
         <div className="projects-wrapper">
           {projects.map((project, i) => (
-            <div  className="project-card" key={i + 1}>
+            <div className="project-card" key={i + 1}>
               {/* project --> project-card */}
 
               <div className="description">
@@ -102,14 +99,13 @@ function Projects() {
                 {/* project-description */}
                 {project.desc}
               </p>
-              <div style={{display:"flex"}} className="project-tech-stack">
+              <div style={{ display: "flex" }} className="project-tech-stack">
                 {/* project-tech-stack */}
-                <div style={{fontWeight:"bold"}}>
-
-                <h3>Tech Used:</h3> 
+                <div style={{ fontWeight: "bold" }}>
+                  <h3>Tech Used:</h3>
                 </div>
                 <div>
-                <h3>{project.tech}</h3>
+                  <h3>{project.tech}</h3>
                 </div>
               </div>
             </div>

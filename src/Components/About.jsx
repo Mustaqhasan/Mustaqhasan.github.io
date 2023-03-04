@@ -46,7 +46,8 @@ const About = () => {
               id="resume-link-2"
               href="Mustaq_Shaikh_Resume.pdf"
               download={"fw20_0567-Mustaq-Shaikh-Resume.pdf"}
-              // target="_blank"
+              target="_blank"
+              rel="noreferrer"
             >
               <button
                 onClick={handleClick}
@@ -55,6 +56,33 @@ const About = () => {
               >
                 Get Resume
               </button>
+            </a>
+          </div>
+          <div
+            style={{
+              fontSize: "20px",
+              textShadow: "-moz-initial",
+              color: "Highlight",
+            }}
+          >
+            <a
+              id="resume-link-2"
+              href="https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <a
+                href="Mustaq_Shaikh_Resume.pdf"
+                download={"fw20_0567-Mustaq-Shaikh-Resume.pdf"}
+              >
+                <button
+                  onClick={handleClick}
+                  id="resume-button-2"
+                  className="btn"
+                >
+                  Get Resume
+                </button>
+              </a>
             </a>
           </div>
         </div>
