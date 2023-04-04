@@ -87,6 +87,8 @@
 import React from "react";
 import { Menu, MenuButton, MenuList } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
+import file from "./file/Mustaq_Shaikh_Resume.pdf"
+import download from "./handleClick"
 function Header() {
   const [stickyClass, setStickyClass] = useState("");
   const [active, setActive] = useState(false);
@@ -147,17 +149,17 @@ function Header() {
               </a>
             </div>
             <div className="nav-link resume">
-              <a
-                id="resume-link-1"
-                href="Mustaq_Shaikh_Resume.pdf"
-                download={"fw20_0567-Mustaq-Shaikh-Resume.pdf"}
-                
-                // target="_blank"
-              >
-                <button  onClick={handleClick} id="resume-button-1">
+              <button id="resume-button-1">
+                <a
+                  id="resume-link-1"
+                  href={file}
+                  download={"Mustaq_Shaikh_Resume.pdf"}
+                  onClick={download}
+                  // target="_blank"
+                >
                   Resume
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
 

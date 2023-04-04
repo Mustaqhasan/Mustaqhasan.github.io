@@ -10,7 +10,7 @@ function Home() {
           <div className="banner-img">
             {/* <div className="profile-picture-background"> */}
 
-            <img className="home-img" src="/person6.png" alt="" />
+            <img className="home-img" src="/002.jpg" alt="" />
             {/* </div> */}
           </div>
           <div style={{paddingLeft:"50px",width:"900px"}}  className="banner-content">
@@ -22,7 +22,7 @@ function Home() {
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/mustaqshaikh/"
               >
-                <h1 className="fa fa-linkedin"></h1>
+                <h1 className="fa fa-linkedin">.</h1>
               </a>
               <a
                 id="contact-github"
@@ -30,7 +30,7 @@ function Home() {
                 rel="noreferrer"
                 href="https://github.com/Mustaqhasan"
               >
-                <h1 className="fa fa-github"></h1>
+                <h1 className="fa fa-github">.</h1>
               </a>
               <a
               id="contact-email"

@@ -1,15 +1,17 @@
 // import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
+import file from "./file/Mustaq_Shaikh_Resume.pdf"
+import download from './handleClick'
 
 const About = () => {
-  const handleClick = () => {
-    // window.location.href="https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link"
+  // const handleClick = () => {
+  //   // window.location.href="https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link"
 
-    window.open(
-      "https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link",
-      "_blank" // <- This is what makes it open in a new window.
-    );
-  };
+  //   window.open(
+  //     "https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=share_link",
+  //     "_blank" // <- This is what makes it open in a new window.
+  //   );
+  // };
   return (
     <section id="about" className="about section">
       <div className="about-div1">
@@ -42,7 +44,7 @@ const About = () => {
               color: "Highlight",
             }}
           >
-            <a
+            {/* <a
               id="resume-link-2"
               href="Mustaq_Shaikh_Resume.pdf"
               download={"fw20_0567-Mustaq-Shaikh-Resume.pdf"}
@@ -56,9 +58,21 @@ const About = () => {
               >
                 Get Resume
               </button>
-            </a>
+            </a> */}
+
+            <button id="resume-button-2">
+              <a
+                // href="https://drive.google.com/uc?export=download&id=1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo"
+                href={file}
+                download={"Mustaq_Shaikh_Resume.pdf"}
+                onClick={download}
+                id="resume-link-2"
+              >
+                <button className="btn">Get Resume</button>
+              </a>
+            </button>
           </div>
-          <div
+          {/* <div
             style={{
               fontSize: "20px",
               textShadow: "-moz-initial",
@@ -84,7 +98,7 @@ const About = () => {
                 </button>
               </a>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* <div>
