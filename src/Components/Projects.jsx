@@ -5,6 +5,22 @@ import { useState } from "react";
 function Projects() {
   const [projects] = useState([
     {
+      title: "Caratlane (clone)",
+      img: "/crystara.png",
+      gLink: "https://github.com/Mustaqhasan/cryastara_",
+      lLink: "https://crystara-tau.vercel.app/",
+      desc: "Crystara is a clone of crystlane app, which provides the jwellery products for user from this website user can buy products. It was a individual project",
+      tech: "HTML CSS.",
+    },
+    {
+      title: "Healthkart (clone)",
+      img: "/healthkart.png",
+      gLink: "https://github.com/Anish-Jha/naughty-wind-121",
+      lLink: "https://brilliant-cranachan-982a09.netlify.app/",
+      desc: "Tried to clone healthkart.com, E-Commerce Website where user can buy products of related to health.It was an group project",
+      tech: "HTML, CSS, JavaScript, React, Express, MongoDB",
+    },
+    {
       title: "Zara (clone)",
       img: "/zara.png",
       gLink:
@@ -20,14 +36,6 @@ function Projects() {
       lLink: "https://famous-douhua-abc855.netlify.app/",
       desc: "Cloned Unbounce.com to show Our Skills in HTML CSS and javascript, Unbounce helps to build your Pwn business and help to build landing pages, worked on Pricing page in that I have shown prices for monthly as well as yearly so user can register accordingly. It was a Group Project ",
       tech: "HTML CSS javascript.",
-    },
-    {
-      title: "Crickbuzz (clone)",
-      img: "/crickbuzz.png",
-      gLink: "https://github.com/Mustaqhasan/limping-protest-4858",
-      lLink: "https://thunderous-caramel-77b6e4.netlify.app/",
-      desc: "Crickbuzz shows live scores of Cricket for national and international cricket, It has all teams information. It was an individual project",
-      tech: "HTML CSS.",
     },
     {
       title: "Crickbuzz (clone)",
