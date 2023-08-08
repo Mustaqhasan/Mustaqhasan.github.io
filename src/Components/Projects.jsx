@@ -10,7 +10,7 @@ function Projects() {
       gLink: "https://github.com/Mustaqhasan/cryastara_",
       lLink: "https://crystara-tau.vercel.app/",
       desc: "Crystara is a clone of crystlane app, which provides the jwellery products for user from this website user can buy products. It was a individual project",
-      tech: "HTML CSS.",
+      tech: "HTML, CSS, JavaScript, React, Next",
     },
     {
       title: "Healthkart (clone)",

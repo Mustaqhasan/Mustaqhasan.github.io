@@ -1,6 +1,6 @@
 // import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
-import file from "./file/Mustaq_Shaikh_Resume.pdf"
+import file from "./file/Mustaq_Shaikh_Resume_F.pdf"
 import download from './handleClick'
 
 const About = () => {
@@ -64,7 +64,7 @@ const About = () => {
               <a
                 // href="https://drive.google.com/uc?export=download&id=1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo"
                 href={file}
-                download={"Mustaq_Shaikh_Resume.pdf"}
+                download={"Mustaq_Shaikh_Resume_F.pdf"}
                 onClick={download}
                 id="resume-link-2"
               >

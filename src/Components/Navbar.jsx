@@ -87,7 +87,7 @@
 import React from "react";
 import { Menu, MenuButton, MenuList } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import file from "./file/Mustaq_Shaikh_Resume.pdf"
+import file from "./file/Mustaq_Shaikh_Resume_F.pdf"
 import download from "./handleClick"
 function Header() {
   const [stickyClass, setStickyClass] = useState("");
@@ -153,7 +153,7 @@ function Header() {
                 <a
                   id="resume-link-1"
                   href={file}
-                  download={"Mustaq_Shaikh_Resume.pdf"}
+                  download={"Mustaq_Shaikh_Resume_F.pdf"}
                   onClick={download}
                   // target="_blank"
                 >
