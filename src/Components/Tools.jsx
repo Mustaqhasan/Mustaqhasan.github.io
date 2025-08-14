@@ -33,7 +33,7 @@ const Tools = () => {
   return (
     <section id="skills">
       <div className="skills-title">
-        <h3>Tools</h3>
+        {/* <h3>Tools</h3> */}
       </div>
       <Flex className="skills-content">
         <Flex

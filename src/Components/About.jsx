@@ -21,11 +21,17 @@ const About = () => {
           </h3>
           <div id="user-detail-intro" className="about-content">
             <h3 id="user-detail-name">I am Shaikh Mustaq Hasan Muneer</h3>
-            Dedicated and Efficient Full Stack Developer with 1000+ hours Coding
-            Experience. Certified in Front End Technologies such as HTML and
-            CSS. Also Learned JS and UI libraries like React JS. Looking for the
-            opportunity to leverage my skills and knowledge to contribute to the
-            organization and to grow as a professional.
+            Results-driven DevOps Engineer with expertise in automating,
+            streamlining, and optimizing software delivery pipelines. Skilled in
+            CI/CD implementation, infrastructure-as-code, containerization, and
+            cloud platforms to accelerate development cycles and improve
+            deployment reliability. Proficient in tools such as Jenkins, Docker,
+            Kubernetes, Terraform, Ansible, and cloud services (AWS). Strong
+            background in monitoring, troubleshooting, and ensuring high
+            availability of applications in production environments. Adept at
+            collaborating with cross-functional teams to bridge the gap between
+            development and operations, enabling faster, more reliable software
+            delivery.
           </div>
           {/* <button onClick={handleClick} id="resume-button-1">
                 <a

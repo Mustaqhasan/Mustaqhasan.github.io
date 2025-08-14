@@ -19,7 +19,7 @@ function App() {
     <Home/>
     <About/>
     <Skills/>
-    <Tools/>
+    {/* <Tools/> */}
     <Projects/>
     <GitCalender/>
     <Stats/>

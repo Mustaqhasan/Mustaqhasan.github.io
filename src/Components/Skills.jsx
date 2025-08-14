@@ -48,8 +48,77 @@ const Skills = () => {
             minW={"200px"}
             textAlign={"center"}
           >
-            <Image className="skills-card-img" src="/html.png" />
-            <Heading className="skills-card-name">HTML</Heading>
+            <Image
+              className="skills-card-img"
+              src="https://cdn-icons-png.flaticon.com/128/919/919853.png"
+            />
+            <Heading className="skills-card-name">Docker</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image
+              className="skills-card-img"
+              src="https://img.icons8.com/?size=96&id=iGCCE2iEmh2u&format=png"
+            />
+            <Heading className="skills-card-name">Kubernetes</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image
+              className="skills-card-img"
+              src="https://img.icons8.com/?size=96&id=cvzmaEA4kC0o&format=png"
+            />
+            <Heading className="skills-card-name">Ansible</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image
+              className="skills-card-img"
+              src="https://img.icons8.com/?size=96&id=kEkT1u7zTDk5&format=png"
+            />
+            <Heading className="skills-card-name">Terraform</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image className="skills-card-img" src="/github.png" />
+            <Heading className="skills-card-name">GitHub</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image className="skills-card-img" src="/visual-studio.png" />
+            <Heading className="skills-card-name">VS Code</Heading>
+          </Box>
+          <Box
+            className="skills-card"
+            minH={"200px"}
+            minW={"200px"}
+            textAlign={"center"}
+          >
+            <Image
+              className="skills-card-img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgyO0C7xBtM_nDhycjDNCooJ4uhcpZUjzMiMKLJ74P6Q&s"
+            />
+            <Heading className="skills-card-name">NPM</Heading>
           </Box>
           <Box
             className="skills-card"
@@ -69,7 +138,7 @@ const Skills = () => {
             <Image className="skills-card-img" src="/css-3.png" />
             <Heading className="skills-card-name">CSS</Heading>
           </Box>
-          <Box
+          {/* <Box
             className="skills-card"
             minH={"200px"}
             minW={"200px"}
@@ -77,7 +146,7 @@ const Skills = () => {
           >
             <Image className="skills-card-img" src="/bootstrap.png" />
             <Heading className="skills-card-name">Bootstrap</Heading>
-          </Box>
+          </Box> */}
           <Box
             className="skills-card"
             minH={"200px"}
@@ -87,7 +156,7 @@ const Skills = () => {
             <Image className="skills-card-img" src="/react.png" />
             <Heading className="skills-card-name">React</Heading>
           </Box>
-          <Box
+          {/* <Box
             className="skills-card"
             minH={"200px"}
             minW={"200px"}
@@ -98,7 +167,7 @@ const Skills = () => {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvCVkK_GhuAlZY0K7vbTWx51QhKpFCXvbVX2qwccpZA&s"
             />
             <Heading className="skills-card-name">Redux</Heading>
-          </Box>
+          </Box> */}
           <Box
             className="skills-card"
             minH={"200px"}
@@ -108,7 +177,7 @@ const Skills = () => {
             <Image className="skills-card-img" src="/redux.png" />
             <Heading className="skills-card-name">Chakra UI</Heading>
           </Box>
-          <Box
+          {/* <Box
             className="skills-card"
             minH={"200px"}
             minW={"200px"}
@@ -116,8 +185,8 @@ const Skills = () => {
           >
             <Image className="skills-card-img" src="/node-js.png" />
             <Heading className="skills-card-name">Node.js</Heading>
-          </Box>
-          <Box
+          </Box> */}
+          {/* <Box
             className="skills-card"
             minH={"200px"}
             minW={"200px"}
@@ -128,7 +197,7 @@ const Skills = () => {
               src="data:image/png;base64,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"
             />
             <Heading className="skills-card-name">Express.js</Heading>
-          </Box>
+          </Box> */}
         </Flex>
       </Flex>
     </section>

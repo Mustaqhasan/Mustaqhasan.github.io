@@ -48,22 +48,16 @@ function Home() {
           </a> */}
             </div>
             <h3 id="user-detail-name">Hello 👋🏻 , I'm Mustaq Shaikh</h3>
-            <h2 id="user-detail-intro">Aspiring Web Developer</h2>
+            <h2 id="user-detail-intro">DevOps Engineer</h2>
             <div id="typical">
               {/* Full Stack Web Developer */}
               <Typical
                 loop={Infinity}
                 wrapper="h3"
                 steps={[
-                  "Enthusiastic Web Dev 😎",
+                  "Enthusiastic Devops Engineer 😎",
                   2000,
-                  "Full Stack Web Developer 👨‍💼",
-                  2000,
-                  "Dedicated Mern Dev 🤵",
-                  2000,
-                  "Cross Platform Dev 🌐",
-                  2000,
-                  "React Dev ❄️",
+                  "AWS Engineer 👨‍💼",
                   2000,
                 ]}
               />
