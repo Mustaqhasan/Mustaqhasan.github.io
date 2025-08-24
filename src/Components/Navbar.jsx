@@ -87,8 +87,8 @@
 import React from "react";
 import { Menu, MenuButton, MenuList } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import file from "./file/Mustaq_Shaikh_Resume_F.pdf"
-import download from "./handleClick"
+import file from "./file/Mustaq_Shaikh_Resume_F.pdf";
+import download from "./handleClick";
 function Header() {
   const [stickyClass, setStickyClass] = useState("");
   const [active, setActive] = useState(false);
@@ -110,7 +110,7 @@ function Header() {
 
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/19B_jTfDnnrzrzXwMpbp1Ppi5cLyeSc-j/view?usp=sharing",
+      "https://drive.google.com/file/d/1cvMgIiU3PLks6fgo_2bqIVvLIekdwwWf/view?usp=sharing",
       "_blank" // <- This is what makes it open in a new window.
     );
   };
