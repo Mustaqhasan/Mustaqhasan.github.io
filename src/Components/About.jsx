@@ -1,6 +1,6 @@
 // import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
-import file from "./file/Mustaq_Shaikh_Resume_F.pdf"
+import file from "./file/Mustaq_Shaikh_Resume.pdf"
 import download from './handleClick'
 
 const About = () => {
