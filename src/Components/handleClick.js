@@ -1,6 +1,6 @@
 const download = () => {
   window.open(
-    `https://drive.google.com/file/d/12uZrzU6L9ZYVoiMWmcZ-Wd1UckI5UWx5/view?usp=sharing`
+    `https://drive.google.com/file/d/1d0D2wn0zcDIR76hPmvmhXZRc-fda0vqo/view?usp=sharing`,
   );
 };
 
